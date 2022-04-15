@@ -74,7 +74,7 @@ if __name__ == '__main__':
     fldRowTxt = Tkinter.Entry(stepTwo)
     fldRowTxt.grid(row=5, columnspan=5, padx=5, pady=2, sticky='WE')
 
-    transChk = Tkinter.Checkbutton(stepThree, \
+    transChk = Tkinter.Checkbutton(stepThree,
                                    text="Enable Transaction", onvalue=1, offvalue=0)
     transChk.grid(row=6, sticky='W', padx=5, pady=2)
 
