@@ -22,7 +22,7 @@ if __name__ == '__main__':
                  padx=5, pady=5, ipadx=5, ipady=5)
 
     stepThree = Tkinter.LabelFrame(form, text=" 3. Configure: ")
-    stepThree.grid(row=3, columnspan=7, sticky='W', \
+    stepThree.grid(row=3, columnspan=7, sticky='W',
                    padx=5, pady=5, ipadx=5, ipady=5)
 
     inFileLbl = Tkinter.Label(stepOne, text="Select the File:")
@@ -55,19 +55,19 @@ if __name__ == '__main__':
     outEncTxt = Tkinter.Entry(stepOne)
     outEncTxt.grid(row=2, column=7, pady=2)
 
-    outTblLbl = Tkinter.Label(stepTwo, \
+    outTblLbl = Tkinter.Label(stepTwo,
                               text="Enter the name of the table to be used in the statements:")
     outTblLbl.grid(row=3, column=0, sticky='W', padx=5, pady=2)
 
     outTblTxt = Tkinter.Entry(stepTwo)
     outTblTxt.grid(row=3, column=1, columnspan=3, pady=2, sticky='WE')
 
-    fldLbl = Tkinter.Label(stepTwo, \
+    fldLbl = Tkinter.Label(stepTwo,
                            text="Enter the field (column) names of the table:")
     fldLbl.grid(row=4, column=0, padx=5, pady=2, sticky='W')
 
-    getFldChk = Tkinter.Checkbutton(stepTwo, \
-                                    text="Get fields automatically from input file", \
+    getFldChk = Tkinter.Checkbutton(stepTwo,
+                                    text="Get fields automatically from input file",
                                     onvalue=1, offvalue=0)
     getFldChk.grid(row=4, column=1, columnspan=3, pady=2, sticky='WE')
 
@@ -78,9 +78,9 @@ if __name__ == '__main__':
                                    text="Enable Transaction", onvalue=1, offvalue=0)
     transChk.grid(row=6, sticky='W', padx=5, pady=2)
 
-    transRwLbl = Tkinter.Label(stepThree, \
+    transRwLbl = Tkinter.Label(stepThree,
                                text=" => Specify number of rows per transaction:")
-    transRwLbl.grid(row=6, column=2, columnspan=2, \
+    transRwLbl.grid(row=6, column=2, columnspan=2,
                     sticky='W', padx=5, pady=2)
 
     transRwTxt = Tkinter.Entry(stepThree)
