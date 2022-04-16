@@ -8,17 +8,17 @@ if __name__ == '__main__':
     form.wm_title('File Parser')
 
     stepOne = Tkinter.LabelFrame(form, text=" 1. Enter File Details: ")
-    stepOne.grid(row=0, columnspan=7, sticky='W', \
+    stepOne.grid(row=0, columnspan=7, sticky='W',
                  padx=5, pady=5, ipadx=5, ipady=5)
 
     helpLf = Tkinter.LabelFrame(form, text=" Quick Help ")
-    helpLf.grid(row=0, column=9, columnspan=2, rowspan=8, \
+    helpLf.grid(row=0, column=9, columnspan=2, rowspan=8,
                 sticky='NS', padx=5, pady=5)
     helpLbl = Tkinter.Label(helpLf, text="Help will come - ask for it.")
     helpLbl.grid(row=0)
 
     stepTwo = Tkinter.LabelFrame(form, text=" 2. Enter Table Details: ")
-    stepTwo.grid(row=2, columnspan=7, sticky='W', \
+    stepTwo.grid(row=2, columnspan=7, sticky='W',
                  padx=5, pady=5, ipadx=5, ipady=5)
 
     stepThree = Tkinter.LabelFrame(form, text=" 3. Configure: ")
