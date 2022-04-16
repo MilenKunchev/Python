@@ -10,7 +10,6 @@ my_label.grid(row=0, column=0)
 my_label = Label(root, text=distance)
 my_label.grid(row=0, column=1)
 
-
 # def on_click():
 #     on_click_label = Label(root, text='Click the button')
 #     on_click_label.grid(row=0, column=0)
