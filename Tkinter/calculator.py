@@ -23,7 +23,6 @@ buttons_pad_x = 40
 buttons_pad_y = 20
 
 # define buttons
-# TODO this is must be other Class in other file
 button_1 = Button(root, text="1", **number_button)
 button_2 = Button(root, text="2", **number_button)
 button_3 = Button(root, text="3", **number_button)
@@ -59,5 +58,3 @@ button_equal.grid(row=5, column=0, columnspan=2)
 button_clear.grid(row=5, column=2)
 
 root.mainloop()
-
-print('Boyko')
