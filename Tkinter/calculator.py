@@ -59,5 +59,5 @@ button_clear.grid(row=5, column=2)
 
 root.mainloop()
 
-print('Boyko ')
+# print('Boyko ')
 
