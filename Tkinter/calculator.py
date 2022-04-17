@@ -51,3 +51,5 @@ button_equal.grid(row=5, column=0, columnspan=2)
 button_clear.grid(row=5, column=2)
 
 root.mainloop()
+
+print('Boyko')
