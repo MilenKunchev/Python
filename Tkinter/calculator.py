@@ -60,4 +60,4 @@ button_clear.grid(row=5, column=2)
 
 root.mainloop()
 
-print('Boyko1 ')
+print('Boyko')
