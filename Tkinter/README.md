@@ -1,4 +1,4 @@
-#  rel="Tkinter"><p align="center">Tkinter<p>
+#  <p align="center">Tkinter<p>
  
 * [TkDocs] - This tutorial will quickly get you up and running with the latest Tk from Python...
 
