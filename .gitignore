@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 # My gitignore
 temp.py
-.idea
+.idea*
 test.py
 test.*
+test*
