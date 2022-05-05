@@ -5,4 +5,5 @@ def factorial(num):
     return result
 
 
-print(factorial(5))
+number = 5
+print(f"Factorial {number} is {factorial(number)}")

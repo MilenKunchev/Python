@@ -1,3 +1,8 @@
+"""
+Calculates the sum of numbers in an array by recursion
+"""
+
+
 def calc_sum(arr, index):
     if index == len(arr):
         return 0
