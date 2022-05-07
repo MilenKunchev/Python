@@ -11,6 +11,7 @@ def generate(index: int, result: list):
 Generates all possible combinations an array with n number of elements.
 Elements are 0 and 1 from the loop.
 """
+
 n = 4
 ll = [None] * n
 generate(0, ll)

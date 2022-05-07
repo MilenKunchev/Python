@@ -1,6 +1,9 @@
 ll = ["Adam", ["Bob", ["Tom", "Peter"], "Peter"], "Mike"]
-
-
+ll1 = [
+    [1, 2, 3, 4, 5],
+    [1, 2, 3, 4, 5],
+    [1, 2, 3, 4, 5]
+]
 def count_leaf_items(ll):
     """
     Recursively count and return the
@@ -14,6 +17,4 @@ def count_leaf_items(ll):
             count += 1
     return count
 
-
-print(len(ll))
-print(count_leaf_items(ll))
+print(count_leaf_items(ll1))
