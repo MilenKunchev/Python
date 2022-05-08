@@ -10,5 +10,6 @@ def factorial(n):
     return result
 
 
-number = 8
+number = 5
+
 factorial(number)
