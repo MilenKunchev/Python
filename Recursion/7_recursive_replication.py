@@ -1,3 +1,4 @@
+# @countcalls
 def replicate(times, number, result=None):
     if result is None:
         result = []
