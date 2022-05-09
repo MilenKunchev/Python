@@ -1,4 +1,4 @@
-listA = [9, -2, 6, 1, 80, 9, -2]
+my_list = [9, -2, 4, 5, -1, 9, 11, 9]
 
 
 def find_minimum(l):
@@ -7,11 +7,11 @@ def find_minimum(l):
     elif len(l) == 1:
         return l[0]
     else:
-        current_min_number = find_minimum(l[1:])
-        min_num = l[0]
-        if current_min_number < min_num:
-            min_num = current_min_number
-        return min_num
+        min_num = find_minimum(l[1:])
+        next_num = l[0]
+        if min_num < next_num:
+            return min_num
+        return next_num
 
 
-print(find_minimum(listA))
+print(find_minimum(my_list))
