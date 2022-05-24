@@ -18,3 +18,4 @@ tests = [200, 899, 1000, 89, 567, 390, 768]
 for test in tests:
     sys.setrecursionlimit(test)
     print(fetch_recursion_limit())
+
