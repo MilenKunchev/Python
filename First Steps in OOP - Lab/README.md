@@ -1,11 +1,11 @@
-# Lab: First Steps in OOP
 
+<h1 align="center">Lab: First Steps in OOP</h1>
 Problems for exercise and homework for the [Python OOP Course @SoftUni](https://softuni.bg/courses/python-oop).
 
 Submit your solutions in the SoftUni judge system at [https://judge.softuni.bg/Contests/1934](https://judge.softuni.bg/Contests/1934).
 
-1.
-## Rhombus of Stars
+
+## 1.Rhombus of Stars
 
 Create a program that reads a **positive**** integer **** N **as input and prints on the console a** rhombus **with size** n**:
 
@@ -18,8 +18,8 @@ Create a program that reads a **positive**** integer **** N **as input and print
 | 3 | \*\* \*\* \* \*\* \*\* |
 | 4 | \*\* \*\* \* \*\* \* \* \*\* \* \*\* \*\* |
 
-1.
-## Scope Mess
+
+## 2.Scope Mess
 
 Fix the code below, so it returns the expected output. Submit the fixed code in the judge system.
 
@@ -52,8 +52,8 @@ print(x)
 | --- | --- |
 | globalouter: localinner: nonlocalouter: localglobal | globalouter: localinner: nonlocalouter: nonlocalglobal: changed! |
 
-1.
-## Class Book
+
+## 3.Class Book
 
 Create a class called **Book**. It should have an **\_\_init\_\_()** method that should receive:
 
@@ -69,8 +69,8 @@ Submit only the class in the judge system.
 | --- | --- |
 | book = Book(&quot;My Book&quot;, &quot;Me&quot;, 200)print(book.name)print(book.author)print(book.pages) | My BookMe200 |
 
-1.
-## Car
+
+## 4.Car
 
 Create a class called **Car**. Upon initialization it should receive a **name** , **model** and **engine** (all strings). Create a method called **get\_info()** which will return a string in the following format:
 **&quot;**** This is {name} {model} with engine {engine} ****&quot;**.
@@ -81,8 +81,8 @@ Create a class called **Car**. Upon initialization it should receive a **name** 
 | --- | --- |
 | car = Car(&quot;Kia&quot;, &quot;Rio&quot;, &quot;1.3L B3 I4&quot;)print(car.get\_info()) | This is Kia Rio with engine 1.3L B3 I4 |
 
-1.
-## Music
+
+## 5.Music
 
 Create class named **Music** that receives **title**** (string) **,** artist****(string)**and **lyrics**** (string) **upon initialization. The class should also have methods** print****\_info()** and **play()**:
 
@@ -96,10 +96,3 @@ Submit **only the class** in the judge system. **Test your code** with your own 
 | **Test Code** | **Output** |
 | --- | --- |
 | song = Music(&quot;Title&quot;, &quot;Artist&quot;, &quot;Lyrics&quot;)print(song.print\_info())print(song.play()) | This is &quot;Title&quot; from &quot;Artist&quot;Lyrics |
-
-
-Follow us:
-
-
-
-Page 1 of 1
