@@ -11,14 +11,7 @@ Create a program that reads a **positive**** integer **** N **as input and print
 
 **Examples**
 
-| **Input** | **Output** |
-| --- | --- |
-| 1 | \* |
-| 2 | \*\* \*\* |
-| 3 | \*\* \*\* \* \*\* \*\* |
-| 4 | \*\* \*\* \* \*\* \* \* \*\* \* \*\* \*\* |
-
-
+![image info](./images/rhombus.png)
 ## 2.Scope Mess
 
 Fix the code below, so it returns the expected output. Submit the fixed code in the judge system.
